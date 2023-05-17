@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(240, 242, 248, 255);
+    font-family: "Poppins", sans-serif;
+  }
+  .card {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 7px;
+    background-color: white;
+  }
+  .title {
+    margin-left: 220px;
+    color: rgba(8, 120, 226, 255);
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #icons {
+    margin-left: 15px;
+    position: relative;
+    top: -55px;
+    left: 310px;
+    font-size: 25px;
+  }
+  .price {
+    margin-left: 220px;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .price:hover {
+    transition: 0.2s;
+    color: rgba(255, 37, 103, 255);
+  }
+  .callme {
+      position: relative;
+      right: 10px;
+      top: 95px;
+    float: right;
+    color: rgba(33, 203, 71, 255);
+    font-weight: 700;
+    font-size: larger;
+  }
+  img {
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    cursor: pointer;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .logo {
+    height: max-content;
+    width: 100px;
+  }
+  #bars {
+    position: relative;
+    top: 8px;
+    left: 15px;
+  }
+  #heart {
+    position: absolute;
+    right: 280px;
+    top: 18px;
+  }
+  button {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 37, 103, 255);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 90px;
+    color: white;
+    font-size: 14px;
+  }
+  #log {
+    position: absolute;
+    right: 120px;
+  }
+  #buisness {
+    position: absolute;
+    top: 7px;
+  }
+  #buisness:hover,
+  #log:hover {
+    transition: 0.2s;
+    color: rgba(33, 203, 71, 255);
+  }

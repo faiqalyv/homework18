@@ -1,0 +1,14 @@
+input{
+    background-color: cadetblue;
+    margin: 0px;
+    font-size: smaller;
+    position: absolute;
+}
+button{
+    background-color: cadetblue;
+    margin: 0px;
+    border-radius: 10px;
+    margin : 5px;
+    font-size:larger;
+   padding: 10px;
+}
